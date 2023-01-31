@@ -3,9 +3,11 @@ The time complexity to find K-nearest neighbourd using brute-force is O(n^3).
 Now if we sort the points then complexity can be reduced to O(n^2log(n)).
 But by implementing KD Tree the time complexity is drastically reduced to O(klog(n))
 
-![Uploading Screen-Shot-2014-07-18-at-12.00.36-pm(1).png…]()
+
+![Screen-Shot-2014-07-18-at-12 00 36-pm(1)](https://user-images.githubusercontent.com/102814951/215682772-fca42650-0521-46d1-869f-987aebad0cb9.png)
 
 To run the program,
+
 >$ cc dsa2_kdtree.c -o kdtree
 
 >$ ./kdtree
