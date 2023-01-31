@@ -4,8 +4,9 @@ Now if we sort the points then complexity can be reduced to O(n^2log(n)).
 But by implementing KD Tree the time complexity is drastically reduced to O(klog(n))
 
 To run the program,
->$ gcc main.c
->$ ./a.out
+>$ cc dsa2_kdtree.c -o kdtree
+
+>$ ./kdtree
 
 # Input
 
